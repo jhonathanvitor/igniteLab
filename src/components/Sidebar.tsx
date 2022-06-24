@@ -1,5 +1,9 @@
 export function Sidebar() {
   return (
-    <h1>Sidebar</h1>
+    <aside className="w-[348px] bg-gray-700 p-6 border-gray-600">
+      <span className="font-bold">
+        Cronograma de aulas
+      </span>
+    </aside>
   )
 }
